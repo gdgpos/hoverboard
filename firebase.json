@@ -7,40 +7,16 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "./build",
-    "cleanUrls": true,
-    "rewrites": [{
-      "source": "/**",
-      "function": "prerender"
-    }],
+    "public": "build",
     "ignore": [
-      "/test/**",
-      "bower.json",
-      "database.rules.json",
       "firebase.json",
-      "README.md"
+      "**/.*",
+      "**/node_modules/**"
     ],
-    "headers": [
+    "rewrites": [
       {
         "source": "**",
-        "headers": [
-          {
-            "key": "X-Content-Type-Options",
-            "value": "nosniff"
-          },
-          {
-            "key": "X-Frame-Options",
-            "value": "DENY"
-          },
-          {
-            "key": "X-XSS-Protection",
-            "value": "1; mode=block"
-          },
-          {
-            "key": "Referrer-Policy",
-            "value": "same-origin"
-          }
-        ]
+        "destination": "/index.html"
       }
     ]
   },
@@ -48,6 +24,10 @@
     "predeploy": [
       "npm run predeploy",
       "npm --prefix ./functions run build"
-    ]
+    ],
+    "source": "functions"
+  },
+  "storage": {
+    "rules": "storage.rules"
   }
 }
