@@ -47,25 +47,25 @@
       }
     </style>
 
-    <div class="container" layout horizontal>
-      <div layout horizontal center-center flex hidden$="[[viewport.isPhone]]">
+    <div class="container" layout horizontal center-center flex>
+      <!--<div layout horizontal center-center flex hidden$="[[viewport.isPhone]]">-->
 
-        <a
-          href="/team"
-          class="image-link"
-          ga-on="click"
-          ga-event-category="link"
-          ga-event-action="open"
-          ga-event-label="open team page"
-        >
-          <plastic-image
-            class="organizers-photo card"
-            srcset="{$ aboutOrganizerBlock.image $}"
-            sizing="cover"
-            lazy-load preload fade
-          ></plastic-image>
-        </a>
-      </div>
+        <!--&lt;!&ndash;<a&ndash;&gt;-->
+          <!--&lt;!&ndash;href="/team"&ndash;&gt;-->
+          <!--&lt;!&ndash;class="image-link"&ndash;&gt;-->
+          <!--&lt;!&ndash;ga-on="click"&ndash;&gt;-->
+          <!--&lt;!&ndash;ga-event-category="link"&ndash;&gt;-->
+          <!--&lt;!&ndash;ga-event-action="open"&ndash;&gt;-->
+          <!--&lt;!&ndash;ga-event-label="open team page"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+          <!--&lt;!&ndash;<plastic-image&ndash;&gt;-->
+            <!--&lt;!&ndash;class="organizers-photo card"&ndash;&gt;-->
+            <!--&lt;!&ndash;srcset="{$ aboutOrganizerBlock.image $}"&ndash;&gt;-->
+            <!--&lt;!&ndash;sizing="cover"&ndash;&gt;-->
+            <!--&lt;!&ndash;lazy-load preload fade&ndash;&gt;-->
+          <!--&lt;!&ndash;&gt;</plastic-image>&ndash;&gt;-->
+        <!--&lt;!&ndash;</a>&ndash;&gt;-->
+      <!--</div>-->
 
       <div class="description-block" flex>
         {% for block in aboutOrganizerBlock.blocks %}
@@ -75,17 +75,17 @@
           <marked-element class="description" markdown="{$ block.description $}">
             <div slot="markdown-html"></div>
           </marked-element>
-          <a
-            href="{$ block.callToAction.link $}"
-            {% if block.callToAction.newTab %}
-            target="_blank" rel="noopener noreferrer"
-            {% endif %}
-          >
-            <paper-button class="cta-button animated icon-right">
-              <span>{$ block.callToAction.label $}</span>
-              <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-            </paper-button>
-          </a>
+          <!--<a-->
+            <!--href="{$ block.callToAction.link $}"-->
+            <!--{% if block.callToAction.newTab %}-->
+            <!--target="_blank" rel="noopener noreferrer"-->
+            <!--{% endif %}-->
+          <!--&gt;-->
+            <!--<paper-button class="cta-button animated icon-right">-->
+              <!--<span>{$ block.callToAction.label $}</span>-->
+              <!--<iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>-->
+            <!--</paper-button>-->
+          <!--</a>-->
         </div>
         {% endfor %}
       </div>

@@ -2,11 +2,11 @@
   "organizer": {
     "name": "GDG Port-of-Spain",
     "twitter": "gdgpos",
-    "blog": "https://blog.gdgpos.com",
-    "url": "http://devfest.gdgpos.com"
+    "blog": "https://gdgpos.com",
+    "url": "http://gdgpos.com"
   },
-  "startDate": "2018-11-24T09:00:00+03:00",
-  "endDate": "2018-11-25T19:00:00+03:00",
+  "startDate": "2018-11-25T13:00:00-04:00",
+  "endDate": "2018-11-25T18:00:00-04:00",
   "webapp": {
     "shortName": "POS DevFest",
     "themeColor": "#F02D3A",
@@ -22,26 +22,11 @@
       "route": "home",
       "permalink": "/",
       "label": "Home"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "label": "Speakers"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/",
-      "label": "Team"
     }
   ],
   "heroSettings": {
     "home": {
-      "description": "Be a hero. Be a GDG!",
+      "description": "Trinidad and Tobago's first DevFest",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -58,8 +43,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
-      "description": "Hear from the Googlers, Partners, and Guest Speakers who are building the future of cloud. Check back often as we add more speakers, including our customers and partners.",
+      "metaDescription": "Hear from developer experts from across the country, passionate and diverse, who are innovating and building the future of technology. Check back often as we add more speakers and partners.",
+      "description": "Hear from developer experts from across the country, passionate and diverse, who are innovating and building the future of technology. Check back often as we add more speakers and partners.",
       "background": {
         "color": "#FFF"
       },
@@ -108,7 +93,7 @@
   },
   "location": {
     "label": "Trincargo",
-    "name": "Planeta kino",
+    "name": "Trincargo",
     "city": "Port-of-Spain",
     "short": "Borde St. Port-of-Spain",
     "address": "10-12 Borde Street, Port-of-Spain, Trinidad and Tobago",
@@ -121,7 +106,7 @@
       "latitude": 10.659711,
       "longitude": -61.5165668
     },
-    "description": "We're hoping to have this event at two venues including our main space at Trincargo Intl. more on this soon."
+    "description": "We'll be at the same place as our launch event Trincargo Intl."
   },
   "mediaQueries": {
     "xs": {
@@ -207,13 +192,13 @@
       "itemsCount": 2
     },
     "blog": {
-      "itemsCount": 3
+      "itemsCount": 0
     },
     "speakers": {
       "itemsCount": 4
     },
     "previousSpeakers": {
-      "itemsCount": 6
+      "itemsCount": 0
     },
     "tickets": {
       "itemsCount": 1

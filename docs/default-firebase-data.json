@@ -59,7 +59,7 @@
   "notifications" : {
     "config" : {
       "icon" : "",
-      "timezone" : "+03:00"
+      "timezone" : "-04:00"
     },
     "messages" : { },
     "subscribers" : { },
@@ -75,50 +75,10 @@
     "title" : "Template Creator"
   }, {
     "logos" : [ {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    } ],
+      "logoUrl" : "https://www.nestle.tt/skin-engine-shared/NCorp/css/images/corporate-logo.png",
+      "name" : "Nestle",
+      "url" : "https://www.nestle.tt/aboutus"
+    }],
     "title" : "General Partner"
   } ],
   "schedule" : {
@@ -1610,62 +1570,19 @@
     } ],
     "title" : "Program Committee"
   } ],
-  "tickets" : [ {
+  "tickets" : [  {
     "available" : true,
-    "currency" : "$",
-    "ends" : "Oct 13",
-    "info" : "Requires valid student/lecturer ID",
-    "name" : "EDU",
-    "price" : 80,
-    "soldOut" : false,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : false,
-    "currency" : "$",
-    "ends" : "Mar 31",
-    "inDemand" : false,
-    "info" : "Or first 50 tickets",
-    "name" : "Pre Early Bird",
-    "price" : 100,
-    "regular" : true,
-    "soldOut" : true,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : true,
-    "currency" : "$",
-    "ends" : "Jun 30",
+    "currency" : "TTD$",
+    "ends" : "Nov 25",
     "inDemand" : true,
-    "info" : "Or first 200 tickets",
-    "name" : "Early Bird",
-    "price" : 120,
+    "info" : "Our first 50 tickets",
+    "name" : "General Admission",
+    "price" : 0,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : false,
-    "currency" : "$",
-    "ends" : "Sep 30",
-    "inDemand" : false,
-    "info" : "Or first 350 tickets",
-    "name" : "Regular",
-    "price" : 160,
-    "primary" : true,
-    "regular" : true,
-    "soldOut" : false,
-    "starts" : "Jul 1",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : true,
-    "currency" : "$",
-    "info" : "Money worth nothing when you love it",
-    "name" : "I Love DFUA",
-    "price" : 280,
-    "soldOut" : false,
-    "url" : "https://2event.com/events/1027108"
-  } ],
+    "starts" : "Oct 31",
+    "url" : "https://www.meetup.com/GDG-Port-of-Spain/events/254464979/"
+  }],
   "triggers" : {
     "images" : false
   },
