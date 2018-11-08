@@ -27,6 +27,11 @@
       "route": "speakers",
       "permalink": "/speakers",
       "label": "Speakers"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule",
+      "label": "Schedule"
     }
   ],
   "heroSettings": {
@@ -48,8 +53,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Hear from developer experts from across the country, passionate and diverse, who are innovating and building the future of technology. Check back often as we add more speakers and partners.",
-      "description": "Hear from developer experts from across the country, passionate and diverse, who are innovating and building the future of technology. Check back often as we add more speakers and partners.",
+      "metaDescription": "Hear from passionate developer experts from across the country, who are innovating and building the future of technology. Check back often as we add more speakers and partners.",
+      "description": "Hear from passionate developer experts from across the country, who are innovating and building the future of technology. Check back often as we add more speakers and partners.",
       "background": {
         "color": "#FFF"
       },
@@ -200,7 +205,7 @@
       "itemsCount": 0
     },
     "speakers": {
-      "itemsCount": 4
+      "itemsCount": 8
     },
     "previousSpeakers": {
       "itemsCount": 0
